@@ -7,7 +7,7 @@ export LSCOLORS=GxFxCxDxBxegedabagacad
 alias svi='sudo vim'
 alias dir='ls -lhrat'
 alias ls='ls -GFh'
-alias sshdev='sshpass -e ssh -A -t fhardisty@development.zonarsystems.net ssh fhardisty@dev-zta-app-003'
+#alias sshdev
 alias curl='clear;curl'
 
 #paths
