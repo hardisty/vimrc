@@ -368,7 +368,7 @@ map <leader>x :e ~/buffer.md<cr>
 map <leader>pp :setlocal paste!<cr>
 
 " Autosave if buffer is changed and no key press for 'updatetime' milliseconds
-autocmd CursorHOld * update
+autocmd CursorHold * update
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
