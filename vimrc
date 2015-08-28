@@ -367,7 +367,8 @@ map <leader>x :e ~/buffer.md<cr>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
-
+" Autosave if buffer is changed and no key press for 'updatetime' milliseconds
+autocmd CursorHOld * update
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
