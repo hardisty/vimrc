@@ -43,6 +43,20 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"add pathogen
+"execute first 		  
+"mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+"curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+execute pathogen#infect()
+
+"execute first
+"in ~/.vim/bundle
+"git clone https://github.com/xolox/vim-misc.git
+"git clone https://github.com/xolox/vim-session.git
+"autosave session
+let g:session_autosave_periodic = 2
+
 " Sets how many lines of history VIM has to remember
 set history=700
 
